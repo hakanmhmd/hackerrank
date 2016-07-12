@@ -1,10 +1,10 @@
 package com.hackerrank.sorting;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
  * link: https://www.hackerrank.com/challenges/insertionsort1
+ * link: https://www.hackerrank.com/challenges/insertionsort2
  * insertion sort: stable
  * worst case time complexity: O(n^2) - reverse order to sorted
  * space complexity: O(1)
@@ -50,7 +50,6 @@ public class InsertionSort {
     }
 
 
-    /* Tail starts here */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int s = in.nextInt();
