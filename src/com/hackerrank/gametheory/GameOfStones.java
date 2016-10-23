@@ -15,7 +15,7 @@ public class GameOfStones {
             if(numberOfStones <= 6){
                 System.out.println("First");
             } else {
-
+                //TODO: completed this task
                 //System.out.println("Second");
             }
         }
