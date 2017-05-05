@@ -19,14 +19,16 @@ public class SherlockAndAnagrams {
             for (int j = 0; j < len; j++) {
                 for (int sub = 1; sub <= len-j; sub++) {
                     String subPart = text.substring(j, j+sub);
+                    System.out.println(subPart);
                     list.add(subPart);
                 }
             }
+
             for (int j = 0; j < list.size(); j++) {
                 String element = list.get(j);
                 for (int k = j+1; k < list.size(); k++) {
                     if(isAnagram(list.get(k), element)){
-                        //System.out.println(list.get(k) + "->" + element);
+                        System.out.println(list.get(k) + "->" + element);
                         counter++;
                     }
                 }
